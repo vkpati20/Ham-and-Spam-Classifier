@@ -1,12 +1,12 @@
 <h1>Ham and Spam Classifer using Python</h1>
 
 <h3>Files/Folders</h3>
-Train folder: Contains two folders, Ham and Spam. Ham folder contains all the ham emails in .txt format and Spam folder contains all the spam emails in .txt format
+Train folder: Contains two folders, Ham and Spam. Ham folder contains all the ham emails in .txt format and Spam folder contains all the spam emails in .txt format<br>
 
 Test folder: Contains two folders, Ham and Spam. Ham folder contains ham and spam emails in .txt format and Spam folder also contain ham and spam emails in .txt format
 
 Output pdf: Contains the output of program with and without Stop words.<br>
-  <em>Stop words: Words that are insignificant when classifying ham and spam emails<em>
+  <em>Stop words: Words that are insignificant when classifying ham and spam emails</em>
   
  
 <h3>Description</h3> 
