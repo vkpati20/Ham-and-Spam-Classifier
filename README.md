@@ -3,11 +3,13 @@
 <h3>Files/Folders</h3>
 Train folder: Contains two folders, Ham and Spam. Ham folder contains all the ham emails in .txt format and Spam folder contains all the spam emails in .txt format<br>
 <br>
-Test folder: Contains two folders, Ham and Spam. Ham folder contains ham and spam emails in .txt format and Spam folder also contain ham and spam emails in .txt format
+Test folder: Contains two folders, Ham and Spam. Ham folder contains ham and spam emails in .txt format and Spam folder also contain ham and spam emails in .txt format<br>
+<br>
 
 Output pdf: Contains the output of program with and without Stop words.<br>
   <em>Stop words: Words that are insignificant when classifying ham and spam emails</em>
   
+  <hr>
  
 <h3>Description</h3> 
 Given ham and spam train folders containing ham and spam emails in text format respectively, this program uses <strong>Naïve Bayes</strong> approach to learn about ham and spam emails from training set, then reads ham and spam test folders, each containing some ham and spam emails, and calculatses percent of ham files and spam files classified correctly 
