@@ -44,4 +44,5 @@ Then I check each value in <em><strong>AllPercentages array</em></strong>, and c
 
 The program output:
 
+![](OutputImage.png)
 
