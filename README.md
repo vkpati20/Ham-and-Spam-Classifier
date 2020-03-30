@@ -28,8 +28,9 @@ in their respective folders
 Goal is to get P(ham |test file) and P(spam | test file) for all the files that are inside their respective folder.<br> <em>P(ham | test file) = probability that the given file is ham</em><br>
 
 P(ham | test file) = P(ham | 'word1', 'word2', word3', ....) <br>
-                   = (P('word1', 'word2', word3', .... | ham)) * P(ham)<br>
-                   = (P('word1'| ham) * P('word2'| ham) * P('word3'| ham) * ....) * P(ham)<br>
+P(ham | test file) = (P('word1', 'word2', word3', .... | ham)) * P(ham)<br>
+P(ham | test file) = (P('word1'| ham) * P('word2'| ham) * P('word3'| ham) * ....) * P(ham)<br>
+<br>
 ex: P('word1' | ham) = count of word1 occurance in <em><strong>All_ham_words_array</strong></em> + 1 / (size of <em><strong>All_ham_words_array</strong></em> + size of <em><strong>var</strong></em>)
 <em>count of word1 occurance in <strong>All_ham_words_array</strong> is given by <strong>varHamCount</strong> array</em>
 
