@@ -34,14 +34,14 @@ P(ham | test file) = (P('word1'| ham) * P('word2'| ham) * P('word3'| ham) * ....
 ex: P('word1' | ham) = count of word1 occurance in <em><strong>All_ham_words_array</strong></em> + 1 / (size of <em><strong>All_ham_words_array</strong></em> + size of <em><strong>var</strong></em>)
 <em>count of word1 occurance in <strong>All_ham_words_array</strong> is given by <strong>varHamCount</strong> array</em>
 
-ex: P(ham) = number of ham traiing files / (number of ham training files + number of training spam)
+ex: P(ham) = number of ham training files / (number of ham training files + number of training spam)
 
-After calculating <strongP('word1' | ham)</strong> = percentage of each word in Ham test file, I take abs(log10(pergentage), and add all the percentages of all words to get <strong>(P('word1', 'word2', word3', .... | ham))</strong>. Then I take log(P(ham)) and multiply it with (P('word1', 'word2', word3', .... | ham)) to get <strong>P(ham | test file)</strong>. I do this for all the files that are in ham test folder and store all the percentages of P(ham | test file) in <em><strong>AllPercentages array</em></strong>. <br>
+After calculating <strong>P('word1' | ham)</strong> = percentage of each word in Ham test file, I take abs(log10(percentage), and add all the percentages of all words to get <strong>(P('word1', 'word2', word3', .... | ham))</strong>. Then I take log(P(ham)) and multiply it with (P('word1', 'word2', word3', .... | ham)) to get <strong>P(ham | test file)</strong>. I do this for all the files that are in ham test folder and store all the percentages of P(ham | test file) for each file in <em><strong>AllPercentages array</em></strong>. <br>
 <br>
-Then I check each value in <em><strong>AllPercentages array</em></strong>, and consider it ham if value is greater than 50 not ham and if value is less than or equal to 50. This gives me number of ham files in ham folder. 
+Then I check each value in <em><strong>AllPercentages array</em></strong>, and consider it "ham" if value is greater than 50 and "not ham" if value is less than or equal to 50. This gives me number of ham files in ham folder. 
 
 <strong>DO THE SAME WITH SPAM TEST FILES</strong>
 
-The program outputs:
+The program output:
 
 
