@@ -1,4 +1,14 @@
 <h1>Ham and Spam Classifer using Python</h1>
+This python program uses training files from ham and spam folder to learn to classify new files into one of two categories. 
+
+<h3>Getting Started</h3>
+I created this program through Spyder environment from Anaconda platform.
+
+Anaconda: https://www.anaconda.com/
+
+To run this program, import test & train folders, and main.py. Open Anaconda platform and go to Spyder environment. Make sure  the program file and ham & spam folders are contained in same folder. After the setup, run the program. The program displays output on the output window of the Spyder environment
+
+
 
 <h3>Files/Folders</h3>
 Train folder: Contains two folders, Ham and Spam. Ham folder contains all the ham emails in .txt format and Spam folder contains all the spam emails in .txt format<br>
